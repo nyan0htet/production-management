@@ -1,0 +1,25 @@
+.core-launcher{
+    
+    width: 100%;
+}
+.core-launcher-top{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.core-launcher-top>input{
+    width: 90%;
+    height: 3rem;
+}
+.core-launcher-menu{
+    background-color: #6E6B4B;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+.core-launcher-menu-item{
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    color: white;
+}

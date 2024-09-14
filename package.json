@@ -1,0 +1,24 @@
+{
+  "name": "sakusaku",
+  "version": "1.0.0",
+  "description": "Production management software",
+  "main": "app/index.html",
+  "type": "module",
+  "scripts": {
+    "test": "build.sh",
+    "compile": "node liveCompiler.js"
+  },
+  "author": "Nyan Htet",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.9.1",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.4.0"
+  },
+  "dependencies": {
+    "@types/node": "^22.5.2",
+    "@types/nw.gui": "^0.0.25"
+  }
+}
